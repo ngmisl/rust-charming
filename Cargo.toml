@@ -1,0 +1,12 @@
+[package]
+name = "mwchart"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+charming = { version = "0.2.1", features = ["ssr"] }
+dotenv = "0.15.0"
+pyroscope = "0.5.4"
+pyroscope_pprofrs = "0.2"
